@@ -1,0 +1,21 @@
+/*
+CSS Name: Default Styles
+Description: NextGEN Default Gallery Stylesheet
+Author: Imagely
+Version: 2.13
+
+This stylesheet is provided to allow users the ability of overriding the default styles for all display types
+*/
+
+.entry-title{
+	font-size: 0.9em;
+}
+
+.ngg-gallery-thumbnail img:hover{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%); -o-filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+	filter: gray;
+	-webkit-filter: grayscale(1);
+}
