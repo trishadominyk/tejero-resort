@@ -1157,6 +1157,10 @@ h3.widget-title {
 	display: block;
 }
 
+.toggled-on > .nav-menu a{
+	color: #333;
+}
+
 .nav-menu .menu-item {
 	position: relative;
 }
