@@ -454,7 +454,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	line-height: 1.2;
 	margin: 0 0 1.75rem;
@@ -1399,7 +1399,7 @@ img.custom-logo {
 h1.site-title,
 p.site-title {
 	margin-bottom: 0;
-	font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 1.25;

@@ -3,7 +3,7 @@ Contributors: SlideDeck
 Tags: wordpress slider, responsive slider, wordpress slideshow, slider plugin, image slider
 Requires at least: 3.3
 Tested up to: 4.9.2
-Stable tag: 5.1.8
+Stable tag: 5.1.9
 License: GPLv3
 
 Build beautiful, responsive, and engaging image and video sliders in minutes.
@@ -45,17 +45,37 @@ SlideDeck v5 includes a set of a core free image sliders with addons available f
 
 == What more can you do with SlideDeck plugin? ==
 
-There are more than a dozen add-ons available to enhance your slider.  Here is list of available add-ons/lenses/templates and dynamic sources that you can choose from
+There are more than a dozen add-ons available to enhance your slider.
 
-* Scheduler - schedule your slides 
-* Facebook - Dynamic source
-* YouTube - Dynamic source
-* Vimeo - Dynamic source
-* WP Posts - Dynamic source
-* Import- Export - Move your slider from one site to another site in few clicks
-* Templates - 30+ ready to use templates
+==  What do you get in extension bundle? ==
 
-For complete list of add-ons, visit [SlideDeck](https://www.slidedeck.com/extensions/)
+Here are the features that you get with the SlideDeck Extension mega bundle.
+
+* Text Slider
+* HTML Slider
+* Custom CSS
+* Call To Action
+* Templates
+* Social Media Sources
+* WooCommerce
+* Video Sources
+* Image Gallery Sources
+* NextGen Gallery
+* Scheduler
+* Import/Export
+* Lead Generation
+
+For complete list of extensions, visit [SlideDeck](https://www.slidedeck.com/extensions/)
+
+== What is the plan for SlideDeck | version 5 ? ==
+
+= SlideDeck | version 5 will have regular updates. Here is a glimpse of the upcoming releases: =
+
+* SlideShare Integration
+* Twitter Integration
+* 50+ Transition effects
+* 50+ ready-to-use Templates
+
 
 **Requirements:** WordPress 3.3+, PHP5 and higher
 
@@ -85,6 +105,10 @@ Where 2803 is the SlideDeck's ID. You can also see this code snippet when you sa
 4. Example - YouTube videos from TEDtalksDirector using the Tool Kit Lens.
 
 == Changelog ==
+= 5.1.9 =
+  Bug Fix : Edit slide issue fixed for lens - Transitionpro.
+  Bug Fix : Updated Dashboard.
+
 = 5.1.8 =
   Feature Enhancement : Added 10 new templates.
   Feature Enahncement : Added ability for admin to send service request.

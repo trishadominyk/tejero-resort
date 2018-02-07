@@ -145,14 +145,14 @@
 		<?php
 		//}
 		?>
-		<h3>Service Request Form</h3>
-		<h4>Contact us for custom quote</h4>
+		<h3>Custom Slider Request</h3>
+		<h4>Contact us to design custom slider as per your needs</h4>
 		<fieldset>
 			<input name="email" id="email" placeholder="Your Email Address" type="email" tabindex="1" required>
 		</fieldset>
-		<fieldset>
+		<!-- <fieldset>
 			<select name='type' id="type" tabindex="2" required>
-				<option value="Installation and Configuration">Installation and Configuration</option>
+				 <option value="Installation and Configuration">Installation and Configuration</option>
 				<option value="Customization">Customization</option>
 			</select>
 		</fieldset>
@@ -161,6 +161,7 @@
 				<option value="SlideDeck">SlideDeck</option>
 			</select>
 		</fieldset>
+		-->
 		<fieldset>
 			<textarea name="detailed-description" id="detailed_description" placeholder="Description about required customization" tabindex="4" required></textarea>
 		</fieldset>

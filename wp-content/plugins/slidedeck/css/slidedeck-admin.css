@@ -4868,3 +4868,742 @@ div.slidedeck-flash-message.updated.facebook {
     margin-top: 20px;
     margin-bottom: -10px;
 }
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,200');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.club_wrapper_main {
+    margin-left:15%;
+}
+/***************Pricing Page 2 boxes Style start*************************/
+.starter_2b, .superior_2b {
+    float: left;
+    text-align: center;
+    margin-right: 1%;
+    width: 32%;
+    border: 1px solid #DBDBDB;
+    box-shadow: 1px 1px 3px #E0E0E0;
+}
+.starter_2b h3 {
+    color: #f16600;
+    font-size: 1.7em;
+}
+.superior_2b h3 {
+    color: #f16600;
+    font-size: 1.7em;
+}
+.starter_2b .blox_elem_price_plan_text{
+    padding: 0;
+}
+.superior_2b{
+    color:#000;
+    margin-right: 1%;
+}
+.superior_2b .blox_elem_price_plan_text_superior li{
+    background: none repeat scroll 0 0 #f8f8f8;
+}
+.superior_2b .blox_elem_price_plan_text_superior li:nth-child(2n) {
+    background: none repeat scroll 0 0 #ffffff;
+}
+.superior_2b .blox_elem_price_plan_text_superior ul li{
+    color:#777;
+    font-size: 1.2em;
+    margin-bottom:0;
+}
+.pricing-faq-answer > a {
+    text-decoration: none;
+}
+@media (max-width:767px) {
+    .starter_2b, .superior_2b {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+@media (min-width:768px) and (max-width:1150px){
+    .starter_2b, .superior_2b {
+        width: 46%;
+    }
+    .starter_2b .blox_elem_price_plan_text li {
+        overflow: auto;
+    }
+}
+/***************Pricing Page 2 boxes Style end*************************/
+/***************Pricing Page Style*************************/
+.starter, .superior, .standard {
+    float: left;
+    text-align: center;
+    margin-right: 3%;
+    width: 30%;
+    border: 1px solid #DBDBDB;
+    box-shadow: 1px 1px 3px #E0E0E0;
+}
+.superior {
+    background-color: #32AAE9;
+}
+.superior .blox_elem_price_plan_name span h3, .superior .blox_elem_price_plan_text, .superior .blox_elem_price_plan_price {
+    color:#fff;
+}
+.pricing-title {
+    color: #32AAE9;
+    font-weight: normal;
+}
+.pricing-title-span {
+    color: #181818;
+    font-weight:normal;
+}
+.pricing-subtitle {
+    font-weight:normal;
+    color:#1d1d1d;
+    font-size:22px;
+}
+.pricing-sub-subtitle {
+    font-weight:normal;
+    color:#1d1d1d;
+    font-size:20px;
+}
+.blox_elem_price_plan_name {
+    text-transform: uppercase;
+    color: #363737;
+    text-transform: uppercase;
+}
+
+.blox_elem_price_plan_price {
+    color: #32AAE9;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10%;
+}
+.purchase {
+    background-color: #163c4a;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5% 0;
+}
+.purchase-superior {
+    background-color: #d23342;
+    padding: 5% 0;
+}
+.purchase-superior a {
+    color:#ffffff;
+    text-decoration:none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.pricing-buy-now {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.top
+{
+    position: relative;
+}
+
+.triangle-down{
+    width: 2.5%;
+    height: 0;
+    padding-left:2.5%;
+    padding-top: 2.5%;
+    overflow: hidden;
+    position: absolute;
+    left:0;right:0;
+    margin:auto;
+    z-index:1;
+}
+.triangle-down:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left:-50px;
+    margin-top:-50px;
+
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #fff;
+}
+.superior .triangle-down:before {
+    border-top: 50px solid #fff;
+}
+.blox_elem_price_plan_text {
+    padding: 5% 0;
+}
+
+@media (max-width:767px) {
+    .starter, .superior, .standard {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+@media (min-width:768px) and (max-width:1150px){
+    .starter, .superior, .standard {
+        width: 30%;
+    }
+    .blox_elem_price_plan_text_superior ul li, .blox_elem_price_plan_text ul li {
+        font-size: 13px !important;
+    }
+}
+.wrapper {
+    margin: 50px auto;
+    width: 280px;
+    height: 370px;
+    background: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 90;
+}
+
+.ribbon-wrapper-yellow {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: -34px;
+    right: -3px;
+}
+
+.ribbon-yellow {
+    background-color: #FFD828;
+    font: bold 15px Sans-Serif;
+    color: #333;
+    text-align: center;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    position: relative;
+    padding: 7px 0;
+    left: -5px;
+    top: 15px;
+    width: 120px;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-yellow:before, .ribbon-yellow:after {
+    content: "";
+    border-top:   3px solid #FFD828;
+    border-left:  3px solid transparent;
+    border-right: 3px solid transparent;
+    position:absolute;
+    bottom: -3px;
+}
+
+.ribbon-yellow:before {
+    left: 0;
+}
+.ribbon-yellow:after {
+    right: 0;
+}
+.ribbon-yellow .fa.fa-heart {
+    color: #F16600;
+}
+.pricing-features {
+    display: inline-table;
+    margin-top: 5%;
+}
+.half {
+    float: left;
+    width: 50%;
+}
+
+.pricing-features-title {
+    color: #373737;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pricing-features-content {
+    color: #373737;
+    text-align: center;
+    width:97%;
+}
+
+.pricing-features-content-inner {
+    display: table-cell;
+    padding: 2% 5%;
+    text-align: center;
+    width: 37%;
+}
+.pricing-features-content-inner.border-right{
+    border-right: 1px solid #DBDBDB;
+}
+.pricing-features-content-inner.border-bottom{
+    border-bottom: 1px solid #DBDBDB;
+}
+.pricing-features table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+.pricing-features table td, table th {
+    border: 1px solid #F0F0F0;
+    padding: 2% 10%;
+}
+.pricing-faq-title {
+    color: #5EBBED;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.pricing-faq-title > span {
+    color: #363737;
+}
+.pricing-faq {
+    margin-top: 5%;
+}
+.pricing-faq-content {
+    padding-top: 5%;
+}
+.pricing-faq-question {
+    color: #484848;
+    font-weight: 600;
+    text-align: left;
+}
+.pricing-faq-answer {
+    color: #484848;
+    text-align: left;
+}
+
+.faq-1, .faq-2, .faq-3, .faq-4, .faq-5, .faq-6 {
+    padding: 3% 10%;
+}
+
+.pricing-contact {
+    text-align: center;
+}
+
+.pricing-contact a {
+    text-decoration: none;
+}
+
+.blox_elem_price_plan_text ul li {
+    background: none repeat scroll 0 0 #F8F8F8;
+    font-size: 1.1em;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.blox_elem_price_plan_text ul li:nth-child(2n) {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.blox_elem_price_plan_text_superior ul li {
+    /*background: none repeat scroll 0 0 #F8F8F8;*/
+    /*font-size: 1.2em;*/
+    /* height: 50px;*/
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+}
+
+.blox_elem_price_plan_text_superior ul li:nth-child(2n) {
+    /*background: none repeat scroll 0 0 #FFFFFF;*/
+}
+.pricing-feature-icon {
+    text-align:center;
+}
+.clubplan
+{
+    margin:5% 0;
+}
+.clubplan-features
+{
+    padding: 0% 10% 3% 10%;
+}
+.cc-club-image, .cc-club-offer
+{
+    width: 49%;
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+/* Pricing Page */
+.fa-check
+{
+    color: #599752;
+}
+.fa-times
+{
+    color: #ff0000;
+}
+
+.superior_2b:last-child
+{
+    margin: 0;
+}
+.cc-pricing-top
+{
+    background: #363636;
+    color: #fff;
+    padding: 10px;
+}
+.cc-pricing-top-popular
+{
+    background: #163c4a;
+    color: #000;
+    padding: 10px;
+    border-bottom:1px solid #DBDBDB;
+}
+.pricing-3column .price_number {
+    border: 1px solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 110px;
+    padding: 25px 10px;
+    width: 110px;
+}
+.blox_elem_price_plan_name h3
+{
+    margin: 10px 0px;
+}
+.cc-pricing-top, .cc-pricing-top-popular, .cc-features
+{
+    /* min-height: 140px !important; */
+    padding: 10px;
+}
+#bbpress-forums .bbp-forum-info .bbp-forum-content, #bbpress-forums p.bbp-topic-meta, div.bbp-template-notice p , .bbp-breadcrumb p
+{
+    font-size: 14px !important;
+}
+.cc-features .blox_elem_price_plan_name
+{
+    padding-top: 22%;
+}
+.features-icon
+{
+    padding-top: 16%;
+}
+.pricing-3column .cc-features
+{
+    min-height: 160px;
+}
+
+.popular-ribbon {
+    background: #d23342;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Bad Script', cursive;
+    left: 0;
+    padding: 2px;
+    position: absolute;
+    top: -36px;
+    width: 100%;
+}
+/* pricing page - 3 cloumn */
+.pricing-3column .starter_2b, .pricing-3column .superior_2b
+{
+    width: 24%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.pricing-3column .starter_2b h3 {
+    color: #444;
+    font-size: 1.3em;
+}
+.pricing-3column .superior_2b h3 {
+    color: #fff;
+    font-size: 1.3em;
+}
+.pricing-3column .superior_2b:last-child{
+    color:#000;
+    margin-right: 0;
+}
+.pricing-3column .superior_2b .blox_elem_price_plan_text_superior ul li{
+    color:#777;
+    font-size: 15px;
+}
+.pricing-3column .blox_elem_price_plan_price {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.pricing-clubplan .club-feature-list
+{
+    padding-top: 5%;
+}
+.pricing-clubplan .limited-offer-img
+{
+    padding-top: 8%;
+}
+.pricing-3column .price_number .number
+{
+    display: block;
+}
+.club-autorenew
+{
+    font-family: "Bad Script",cursive;
+    font-size: 16px;
+}
+@media (max-width:767px) {
+    .pricing-3column .starter_2b, .pricing-3column .superior_2b {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+@media (min-width:768px) and (max-width:1150px){
+    .pricing-3column .starter_2b, .pricing-3column .superior_2b {
+        width: 46%;
+    }
+    .pricing-3column .starter_2b .blox_elem_price_plan_text li {
+        overflow: auto;
+    }
+}
+/* ================ Pricing New Template ============================ */
+.cc-pricing-top-info
+{
+    background: #363636;
+    color: #fff;
+    padding: 10px;
+}
+
+.cc-pricing-top-popular-info
+{
+    background: #163c4a;
+    color: #fff;
+    padding: 10px;
+}
+
+.cc-pricing-top-info, .cc-pricing-top-popular-info, .cc-features
+{
+    /* min-height: 140px !important; */
+    padding: 10px;
+}
+.pricing_cc .cc-pricing-top h3
+{
+    color: #000;
+}
+.pricing_cc .cc-pricing-top .blox_elem_price_plan_price
+{
+    color: #000;
+
+}
+
+.pricing_cc .cc-pricing-top-info
+{
+    /*background: #fff;*/
+}
+.pricing_cc .cc-pricing-top
+{
+    background:none;
+    border-bottom:1px solid #DBDBDB;
+}
+.pricing_cc .cc-pricing-top-popular
+{
+    background: #fff;
+}
+.pricing_cc .cc-pricing-top-popular h3
+{
+    color: #000;
+}
+.cc-pricing-top-popular .blox_elem_price_plan_price
+{
+    color: #000;
+}
+.pricing_cc .superior_2b .blox_elem_price_plan_text_superior li, .pricing_cc .blox_elem_price_plan_text ul li{
+    background: none;
+    border-bottom: 1px solid #cfcfcf;
+    margin-bottom:0;
+}
+.pricing_cc .monthly-popular .blox_elem_price_plan_text_superior
+{
+    /*background: #d23342;*/
+    background-color:#fff;
+}
+.monthly-popular .blox_elem_price_plan_text_superior li
+{
+    color: #000 !important;
+}
+.monthly-popular .fa.fa-check
+{
+    color: #fff;
+}
+.pricing_cc .pricing-3column .blox_elem_price_plan_price
+{
+    font-weight: normal;
+}
+.pricing_cc .blox_elem_price_plan_text ul li
+{
+    font-size: 15px !important;
+}
+.fa-star{color: #d23342; }
+.blox_elem_price_plan_text ul li
+{
+
+    text-align: left;
+}
+.cc-product-price
+{
+    font-size: 1em;
+    padding: 6%;
+}
+.pricing_cc .starter_2b, .pricing_cc .superior_2b
+{
+    margin-right: 0;
+}
+.pricing_cc .pricing-3column .cc-features
+{
+    min-height: 0;
+    border-bottom:1px solid #DBDBDB;
+}
+.pricing_cc .cc-features .blox_elem_price_plan_name
+{
+    padding-top: 7%;
+    padding-right: 24%;
+}
+.pricing_cc .starter_2b
+{
+    /*margin-top: 7.8%;*/
+    margin-top:3.7%;
+    background:#fff;
+}
+.monthly-popular .superior_2b_container
+{
+    box-shadow: 0px 4px 15px #777;
+    margin: -15px 0;
+}
+.superior_2b.monthly-popular
+{
+    box-shadow: none;
+}
+.pricing_cc .cc-pricing-top, .pricing_cc .cc-pricing-top-popular
+{
+    padding: 0;
+    padding-bottom:10px;
+}
+.access-interval
+{
+    background: #676767 none repeat scroll 0 0;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.pricing_cc .club-autorenew
+{
+    font-family: inherit;
+    font-size: 16px;
+}
+.access-interval-monthly
+{
+    /* margin-top: 20px; */
+}
+.pricing_cc .blox_elem_price_plan_name
+{
+    padding-top: 7%;
+}
+.pricing_cc .blox_elem_price_plan_price
+{
+    padding-bottom: 0;
+}
+.monthly-popular .cc-product-price
+{
+    padding: 3% 0;
+    margin-bottom: 12px;
+}
+.blox_elem_price_plan_text ul li .fa
+{
+    padding: 0 5px;
+}
+.blox_elem_price_plan_text ul {
+    margin-bottom:0px!important;
+    margin-left:0!important;
+    margin:0px;
+}
+.monthly-popular .blox_elem_price_plan_text_superior ul li
+{
+    /*border-bottom: 1px solid #cb5c67 !important;*/
+}
+.blox_elem_price_plan_text_superior ul {
+    margin-bottom:0!important;
+    margin-left:0!important;
+    margin:0;
+}
+.pricing_cc .popular-ribbon
+{
+    background: none;
+    top: -73px;
+}
+.monthly-popular .blox_elem_price_plan_name h3
+{
+    padding-top: 4%;
+    padding-bottom:4%;
+}
+.cc_aligncenter
+{
+    margin-bottom: 8%;
+    text-align:center;
+}
+.page-template-page-pricing-3-column-new #container
+{
+    width:100%;
+    max-width: 1170px;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding: 2% 5%;
+
+}
+
+.pricing_cc .superior_2b
+{
+    border: none;
+    /* box-shadow: none; */
+}
+.superior_2b.onetime,  .superior_2b.yearly
+{
+    box-shadow: none;
+}
+.superior_2b_container
+{
+    border: 1px solid #dbdbdb;
+    box-shadow: 1px 1px 3px #e0e0e0;
+}
+
+.pricing_cc .purchase {
+    background-color: #676767;
+    font-weight: normal;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight:bold;
+    margin-top: 10%;
+    padding: 5% 15%;
+}
+a.purchase.popular_purchase
+{
+    text-decoration: none;
+    color:#fff;
+}
+a.pricing_cc .purchase, a.pricing_cc .purchase:link, a.pricing_cc .purchase:active {
+    color: #282a2b;
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.popular_purchase
+{
+    background: #d23342 !important;
+}
+.popular_purchase
+{
+    margin-top: 15% !important;
+}
+.pricing_cc .pricing-3column .superior_2b.yearly .dashicons.dashicons-yes,
+.pricing_cc .pricing-3column .superior_2b.monthly-popular .dashicons.dashicons-yes{
+    color:green;
+    margin-top:5%;
+}
+.pricing_cc .pricing-3column .superior_2b.yearly .dashicons.dashicons-no-alt,
+.pricing_cc .pricing-3column .superior_2b.monthly-popular .dashicons.dashicons-no-alt{
+    color:red;
+    margin-top:5%;
+}
+/* ================ Pricing New Template ============================ */

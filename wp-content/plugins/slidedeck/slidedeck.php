@@ -3,7 +3,7 @@
  Plugin Name: SlideDeck
  Plugin URI: https://slidedeck.com/demo/
  Description: Create SlideDecks on your WordPress blogging platform and insert them into templates and posts. Get started creating SlideDecks from the new SlideDeck menu in the left hand navigation.
- Version: 5.1.8
+ Version: 5.1.9
  Author: SlideDeck
  Author URI: https://www.slidedeck.com
  License: GPL3
@@ -42,7 +42,7 @@ class SlideDeckPlugin {
         'ecf3509'
     );
 
-    static $version = '5.1.8';
+    static $version = '5.1.9';
     static $license = 'LITE';
 
     // Generally, we are not installing addons. If we are, this gets set to true.
@@ -1377,7 +1377,7 @@ class SlideDeckPlugin {
             $this->menu['options'] = add_submenu_page( SLIDEDECK_BASENAME, 'SlideDeck Options', 'Advanced Options', $this->roles['advanced_options_menu'], SLIDEDECK_BASENAME . '/options', array( &$this, 'page_options' ) );
             $this->menu['upgrades'] = add_submenu_page( SLIDEDECK_BASENAME, 'Get More Features', 'Get More Features', $this->roles['more_features_menu'], SLIDEDECK_BASENAME . '/upgrades', array( &$this, 'page_upgrades' ) );
             $this->menu['support'] = add_submenu_page( SLIDEDECK_BASENAME, 'Get Support', 'Get Support', $this->roles['get_support_menu'], SLIDEDECK_BASENAME . '/support', array( &$this, 'page_route' ) );
-	        $this->menu['service_request'] = add_submenu_page( SLIDEDECK_BASENAME, 'Service Request', 'Service Request', $this->roles['service_request_menu'], SLIDEDECK_BASENAME . '/service_request', array( &$this, 'page_srequest' ) );
+	        $this->menu['service_request'] = add_submenu_page( SLIDEDECK_BASENAME, 'Custom Slider Request', 'Custom Slider', $this->roles['service_request_menu'], SLIDEDECK_BASENAME . '/service_request', array( &$this, 'page_srequest' ) );
             add_action( "load-{$this->menu['manage']}", array( &$this, "load_admin_page" ) );
             add_action( "load-{$this->menu['lenses']}", array( &$this, "load_admin_page" ) );
             add_action( "load-{$this->menu['options']}", array( &$this, "load_admin_page" ) );
@@ -1538,16 +1538,17 @@ class SlideDeckPlugin {
     }
 
     function ajax_service_request() {
-	    $to = 'hello@slidedeck.com';
+	    $to = 'support@slidedeck.com';
 	    $f_email = $_POST['email'];
-	    $type = isset( $_POST['type'] )?$_POST['type']:'';
-	    $module = isset( $_POST['module'] )?$_POST['module']:'';
+	    // $type = isset( $_POST['type'] )?$_POST['type']:'';
+	    // $module = isset( $_POST['module'] )?$_POST['module']:'';
 	    $description = isset( $_POST['detailed-description'] )?$_POST['detailed-description']:'';
 
 	    $headers = 'From: <' . $f_email . '>' . "\r\n";
-	    $subject = "Service Request : {$module} {$type}";
+	    //$subject = "Custom Slider Request : {$module} {$type}";
+	    $subject = "Custom Slider Request";
 	    $body = 'FROM: '.$f_email."\r\n";
-	    $body .= "Subject: {$module} {$type}" . "\r\n\r\n";
+	    $body .= "Subject: Custom Slider Request" . "\r\n\r\n";
 	    $body .= "Message Body:\r\n";
 	    $body .= $description;
 	    $result = wp_mail( $to, $subject, $body, $headers );
